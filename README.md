@@ -1,6 +1,8 @@
 # Deep Learning Project 2025
 **Group**: Songbird  
-**Members**: Charlotte, Jiazhen, Paulo
+**Members**: Charlotte de Vries, Jiazhen Tang, Paulo Zirlis  
+**Course**: Deep Learning in Python
+**Supervisor:** Karel Veldkamp
 
 <br>
 
