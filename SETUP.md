@@ -4,7 +4,7 @@ This document explains how to correctly set up the Python environment for this p
 
 ***
 
-# 1. Navigate to the Project Folder
+## 1. Navigate to the Project Folder
 
 Open VS Code, then open the folder containing the project.
 
@@ -12,7 +12,7 @@ Next, open a terminal (VS Code → Terminal → New Terminal) and make sure you 
 
 ***
 
-# 2. Create the Virtual Environment
+## 2. Create the Virtual Environment
 
 #### macOS / Linux:
 ```bash
@@ -29,7 +29,7 @@ Each team member has their own `.venv` — **it is not shared or committed to Gi
 
 ***
 
-### 3. Activate the Virtual Environment
+## 3. Activate the Virtual Environment
 
 #### macOS / Linux:
 ```bash
@@ -57,7 +57,7 @@ If not, **STOP** — the environment is not activated correctly.
 
 ***
 
-### 4. Install the Required Packages
+## 4. Install the Required Packages
 
 With the venv activated, run:
 ```bash
@@ -69,7 +69,7 @@ This installs all dependencies (numpy, pandas, matplotlib, scikit-learn, tensorf
 
 ***
 
-### 5. Restart VS Code (IMPORTANT)
+## 5. Restart VS Code (IMPORTANT)
 
 Before selecting the interpreter in VS Code,
 close and reopen the entire VS Code application.
@@ -78,7 +78,7 @@ If you don’t do this, the newly created .venv may not appear in the interprete
 
 ***
 
-### 6. Select the Correct Python Interpreter in VS Code
+## 6. Select the Correct Python Interpreter in VS Code
 
 After reopening VS Code:
 1. Press **Ctrl + Shift + P** (Cmd + Shift + P on Mac)
@@ -101,7 +101,7 @@ If you see multiple interpreters, choose the one **inside the project’s `.venv
 
 ***
 
-### 7. Select the Correct Kernel for Jupyter Notebooks
+## 7. Select the Correct Kernel for Jupyter Notebooks
 
 Whenever you open a Jupyter notebook in VS Code:
 1. Click the kernel name at the top right
@@ -121,7 +121,7 @@ This ensures the notebook runs with the same environment you installed packages 
 
 ***
 
-### 8. Validate the Setup
+## 8. Validate the Setup
 
 Inside the notebook, run the first cell to try and import the packages
 
@@ -129,7 +129,7 @@ If you see "Setup OK" and no errors → setup is correct.
 
 ***
 
-### 9. Troubleshooting
+## 9. Troubleshooting
 
 #### ❌ “ModuleNotFoundError” even after installing packages
 
