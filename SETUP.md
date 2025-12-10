@@ -177,7 +177,7 @@ requirements.txt stays updated.
 
 ***
 
-## Done!
+## 🎉 Done!
 
 Once everyone completes this setup, all notebooks, scripts, and imports will run consistently across machines.
 
