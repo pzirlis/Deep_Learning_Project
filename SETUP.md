@@ -6,7 +6,7 @@ This document explains how to correctly set up the Python environment for this p
 
 ## 1. Navigate to the Project Folder
 
-Open VS Code, then open the folder containing the project.
+First open your IDE, then open the folder containing the project.
 
 Next, open a terminal (VS Code → Terminal → New Terminal) and make sure you are inside the project directory:
 
@@ -103,7 +103,7 @@ If you see multiple interpreters, choose the one **inside the project’s `.venv
 
 ## 7. Select the Correct Kernel for Jupyter Notebooks
 
-Whenever you open a Jupyter notebook in VS Code:
+Whenever you open a Jupyter notebook:
 1. Click the kernel name at the top right
 2. Choose the interpreter from:
 
@@ -129,7 +129,21 @@ If you see "Setup OK" and no errors → setup is correct.
 
 ***
 
-## 9. Troubleshooting
+## 9. Enable Notebook Output Cleaning (nbstripout)
+
+To keep the repository clean, we remove images and cell outputs from Jupyter notebooks before committing them.  
+Each team member must enable the nbstripout tool *once* for this repository.
+
+Run the following in the terminal inside the project folder:
+
+```bash
+pip install nbstripout
+nbstripout --install
+```
+
+***
+
+## 10. Troubleshooting
 
 #### ❌ “ModuleNotFoundError” even after installing packages
 
@@ -162,7 +176,7 @@ to ensure pip installs into the active environment.
 
 ***
 
-## 10. Important Notes
+## 11. Important Notes
 
 - Never commit your `.venv` folder. It should stay local. It is already listed in .gitignore.
 
